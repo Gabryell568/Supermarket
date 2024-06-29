@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* configurações gerais */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --White: #d8d3d3;
+    --lightColor: #5A81AC;
+    --DarkColor: #0D2C40;
+}
+
+/* configurações do header */
+header{
+    background-color:var(--DarkColor);
+    color: var(--White);
+    margin-bottom: 25px;
+}
+header h1{
+    text-align: left;
+}
+/* configs do body */
+body,html{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--lightColor);
+}
+
+/*configs da main */
+div#caixa-aberto{
+    background-color: var(--White);
+    padding: 20px;
+    width: 70%;
+    display: block;
+    margin: 10px 0px 0px 67px ;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.3em;
+    color: var(--DarkColor);
+    text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.308);
+    border-radius: 10px;
+}
+div#image{
+    background-color: var(--White);
+    height: 270px;
+    width: 15%;
+    margin-top: 15px;
+    margin-left: 70px;
+    border-radius: 10px;
+    background: var(--White) url(../imagens/carinho.png) top center no-repeat;
+    background-size: cover;
+}
+div.barras{
+    background-color: var(--White);
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 28%;
+    left: 22%;
+    border-radius: 10px;
+}
+div.barras h3{
+    text-align: left;
+    padding: 5px;
+    color: var(--White);
+    background-color: var(--DarkColor);
+    border-radius: 10px 10px 0px 0px;
+}
+div#valor{
+    position: absolute;
+    top: 42%;
+}
+div.barras p.currency{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: end;
+}
+div#total{
+    position: absolute;
+    top: 56%;
+}
+div#list{
+    background-color: var(--White);
+    width: 500px;
+    height: 272px;
+    position: absolute;
+    top: 28%;
+    left: 38%;
+    border-radius: 10px;
+}
+div#list h2{
+    background-color: var(--DarkColor);
+    color: var(--White);
+    text-align: center;
+    border-radius: 10px 10px 0px 0px ;
+}
+div#Código{
+    position: absolute;
+    top: 70%;
+    left:13%;
+}
+div#Código h3{
+    text-align: center;
+}
+div#Código p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#subtotal{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    width: 608px;
+}
